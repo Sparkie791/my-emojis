@@ -24,7 +24,7 @@ body {
     border-radius: 20px;
     margin: 15px;
     padding: 15px;
-    box-shadow: 5px 15px 10px rgb(10, 0, 0);
+    box-shadow: 5px 15px 10px rgb(36, 36, 36);
 }
 
 #shift-btn,#pop-btn {
@@ -33,7 +33,7 @@ body {
     border-radius: 20px;
     margin: 15px;
     padding: 15px;
-    box-shadow: 5px 15px 10px rgb(54, 53, 54);
+    box-shadow: 5px 15px 10px rgb(70, 69, 70);
 }
 
 h1 {
