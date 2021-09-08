@@ -2,6 +2,9 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <title>My Emojis</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
        
     </head>
@@ -10,12 +13,12 @@
         <div id="emoji-container"></div>
         <input type="text" id="emoji-input" placeholder="type an emoji 🎉">
         <div class="buttons-wrapper">
-            <button id="push-btn">Add to end</button>
-            <button id="unshift-btn">Add to beginning</button>
+            <button class="btn" id="push-btn">Add to end</button>
+            <button class="btn" id="unshift-btn">Add to beginning</button>
         </div>
         <div class="buttons-wrapper">
-            <button id="pop-btn">Remove from end</button>
-            <button id="shift-btn">Remove from beginning</button>
+            <button class="btn-drk" id="pop-btn">Remove from end</button>
+            <button class="btn-drk" id="shift-btn">Remove from beginning</button>
         </div>
         <script src="index.js"></script>
     </body>

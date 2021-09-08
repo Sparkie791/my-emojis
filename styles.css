@@ -1,9 +1,9 @@
 html {
     height: 100vh;
-    font-family: sans-serif;
 }
 
 body {
+    font-family: 'Karla', sans-serif;
     padding: 10px;
     background-image: linear-gradient(#9139b9, #FFF);
 }
@@ -15,12 +15,12 @@ body {
 
 #emoji-container span {
     margin: 10px;
-    font-size: 60px;
+    font-size: 4em;
 }
 
 #push-btn, #unshift-btn {
     background-color: #fac108;
-    font-size: 48px;
+    font-size: 3em;
     border-radius: 20px;
     margin: 15px;
     padding: 15px;
@@ -29,7 +29,7 @@ body {
 
 #shift-btn,#pop-btn {
     background-color: #4e0536;
-    font-size: 48px;
+    font-size: 3em;
     border-radius: 20px;
     margin: 15px;
     padding: 15px;
@@ -40,7 +40,7 @@ h1 {
     letter-spacing: 2px;
     text-align: center;
     color: white;
-    font-size: 60px;
+    font-size: 5em;
 }
 
 input {
@@ -51,27 +51,25 @@ input {
     background: white;
     border-radius: 6px;
     text-align: center;
-    font-size: 36px;
+    font-size: 3em;
     padding: 10px;
 }
 
 button {
-    font-family: Baloo;
+
     background: darkcyan;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 4px 10px;
     border-radius: 6px;
     margin: 0 4px;
 }
-
+.btn-drk {
+    color: white;
+}
 .buttons-wrapper {
     display: flex;
     justify-content: center;
     margin: 10px 0 0;
 }
 
-footer {
-    font-size: 36px;
-    text-align: center;
-}
